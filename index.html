@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A#R-MUSIC</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-icons.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<!--Mulai area utama-->
+	<main>
+		<!--Mulai navigasi-->
+		<nav class="mainnav shadow navbar-expand-lg navbar navbar-dark bg-dark fixed-top" style="min-width: 350px">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="#">
+		    	<i class="bi bi-soundwave"></i> Music & Friends
+		    	<div style="font-size: 13px">Ayo Dengarkan.</div>
+		    </a>
+
+		    <div>
+			    <div class="input-group ">
+				  <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+				  <span class="bg-black text-white border-0 input-group-text" id="basic-addon2"><i class="bi bi-search"></i></span>
+				</div>
+			</div>
+
+			<div class="text-white h4 mx-3">
+				<a href="">
+					<i class="bi bi-facebook"></i>
+				</a>
+				<a href="">
+					<i class="bi bi-twitter"></i>
+				</a>
+				<a href="https://www.instagram.com/adrfresi?igsh=OTIzczBzcWd2azRk">
+					<i class="bi bi-instagram"></i>
+				</a>
+			</div>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+		        <li class="nav-item"> 
+		          <a class="nav-link active" aria-current="page" href="#">Home</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">About us</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Trending</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Contatc</a>
+		        </li>
+		        
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            Genre
+		          </a>
+		          <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+		            <li><a class="dropdown-item text-white" href="#">Pop</a></li>
+		            <li><a class="dropdown-item text-white" href="#">Jazz</a></li>
+		            <li><hr class="dropdown-divider"></li>
+		            <li><a class="dropdown-item text-white" href="#">Negara</a></li>
+		          </ul>
+		        </li>
+
+		        <img class="rounded-circle" src="images/22.jpg" style="width:40px;height:40px">
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		             Dio
+		          </a>
+		          <ul class="dropdown-menu dropdown-menu-end bg-dark" aria-labelledby="navbarDropdown">
+		            <li><a class="dropdown-item text-white" href="#"><i class="bi bi-person"></i> Profile</a></li>
+		            <li><a class="dropdown-item text-white" href="#"><i class="bi bi-gear"></i> Settings</a></li>
+		            <li><hr class="dropdown-divider"></li>
+		            <li><a class="dropdown-item text-white" href="#"><i class="bi bi-box-arrow-right"></i> Logout</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav><!--Akhir navigasi-->
+
+
+		<!--Mulai Area Pahlawan-->
+		<div class="hero-area text-white pt-5 mt-2">
+			
+			<div class="nav-spacer"></div>
+
+			<ul class="hero-nav nav m-4 nav-pills mb-3" id="pills-tab" role="tablist">
+			  <li class="nav-item" role="presentation">
+			    <button class="text-white nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Featured</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
+			    <button class="text-white nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Trending</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
+			    <button class="text-white nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">New Release</button>
+			  </li>
+			</ul>
+			<div class="tab-content" id="pills-tabContent">
+			  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+
+			  		<!--Item Lagu Kecil-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">01</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="images/19.jpeg" >
+			  				<div class="ms-1">
+			  					<div>Mundur Perlahan</div>
+					  			<small>Nyoman Paul</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">04:19 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--Akhiri Item Lagu Kecil-->
+
+			  		<!--Item Lagu Kecil-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">02</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="images/15.jpeg" >
+			  				<div class="ms-1">
+			  					<div>Sempurna</div>
+					  			<small>Andra & The BackBone</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">04:24 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--Akhiri Item Lagu Kecil-->
+
+			  		<!--Item Lagu Kecil-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">03</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="images/17.jpeg" >
+			  				<div class="ms-1">
+			  					<div>End of Beginning</div>
+					  			<small>Djo</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">02:40 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--Akhiri Item Lagu Kecil-->
+
+			  		
+
+			  </div>
+			  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+			  		<!--Item Lagu Kecil-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">01</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="images/16.jpeg" >
+			  				<div class="ms-1">
+			  					<div>Dan</div>
+					  			<small>Shella on 7</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">04.44 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--Akhiri Item Lagu Kecil-->
+
+			  		<!--Item Lagu Kecil-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">02</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="images/20.jpeg" >
+			  				<div class="ms-1">
+			  					<div>Resah jadi Luka </div>
+					  			<small>Daun Jatuh</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">04:31 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--Akhiri Item Lagu Kecil-->
+
+			  		<!--Lagu Kecil Item-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">03</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="images/30.jpg" >
+			  				<div class="ms-1">
+			  					<div>Pegang Tanganku</div>
+					  			<small>Non Stress</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">05:09 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--Akhiri Item Lagu Kecil-->
+
+			  		<!--Item Lagu Kecil-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">04</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="images/33.jpg" >
+			  				<div class="ms-1">
+			  					<div>Risalah Hati</div>
+					  			<small>Pamungkas</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">05:02 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--Akhiri Item Lagu Kecil-->
+			  		
+			  		
+			  </div>
+			  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+
+			  		<!--Item Lagu Kecil-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">01</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="images/36.jpeg" >
+			  				<div class="ms-1">
+			  					<div>Nobody Gets Me</div>
+					  			<small>SZA</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">03:00 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--Akhiri Item Lagu Kecil-->
+
+			  		<!--Item Lagu Kecil-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">02</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="images/37.jpeg" >
+			  				<div class="ms-1">
+			  					<div>About You </div>
+					  			<small>The 1975</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">05:27 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--Akhiri Item Lagu Kecil-->
+
+			  		<!--Item Lagu Kecil-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">03</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="images/18.jpeg" >
+			  				<div class="ms-1">
+			  					<div>Hati-Hati Di Jalan</div>
+					  			<small>TULUS</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">04:03 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--Akhiri Item Lagu Kecil-->
+
+			  		<!--Item Lagu Kecil-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">04</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="images/29.jpg" >
+			  				<div class="ms-1">
+			  					<div>HAHAHA</div>
+					  			<small>Juicy Luicy</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">03:14 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--Akhiri Item Lagu Kecil-->
+
+			  		<!--Item Lagu Kecil-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">05</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="images/24.jpeg" >
+			  				<div class="ms-1">
+			  					<div>Istimewa</div>
+					  			<small>Adrio Faresi</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">04:00 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--Akhiri Item Lagu Kecil-->
+			  		
+			  		
+			  </div>
+			</div>
+
+
+		</div>
+		<!--Area akhir pahlawan-->
+
+		<h5 class="song-category-title mx-5 pt-4">Music Saya<small class="float-end"><a href="">Lainnya <i class="bi bi-box-arrow-up-right"></i></a></small></h5>
+
+		<!-- Mulai Area Kategori-->
+		<section class="pt-2 p-4 mx-5 d-flex justify-content-center" style="flex-wrap: wrap;">
+			
+			
+			<!--kartu lagu mulai-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/39.jpg" class="big-song-img rounded img-fluid" >
+					<a href="https://www.youtube.com/watch?v=BqFEtDsTUrQ">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">The Way You Look At Me</div>
+					<small class="text-muted">menceritakan tentang kisah kasih dua insan, yang mana identik dengan tatapan mata penuh cinta.</small>
+				</div>
+			</div>
+			<!--Akhir Kartu Lagu-->
+
+			<!--kartu lagu Mulai-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/35.jpg" class="big-song-img rounded img-fluid" >
+					<a href="">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Sepenuh Hati</div>
+					<small class="text-muted">Pesan inspiratif tentang kekuatan cinta dan persahabatan dalam menuntun kita menemukan makna hidup.</small>
+				</div>
+			</div>
+			<!--Akhir Kartu Lagu-->
+
+			<!--kartu lagu mulai-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/38.jpg" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">We Can't Be Friends</div>
+					<small class="text-muted">mencerminkan akhir dari sebuah hubungan. Lirik lagu ini menceritakan kenyataan bahwa dia dan mantan pasangannya tidak bisa berteman atau tetap bersama</small>
+				</div>
+			</div>
+			
+
+
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/21.jpeg" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Message In A Bottle (Taylor's Version)
+						Song by Taylor Swift
+						</div>
+					<small class="text-muted">Lagu ini menceritakan tentang seseorang yang tidak bisa melupakan sesorang lainnya dan bertanya tanya apakah jika sesuatu hal yang berbeda terjadi mereka masih bisa bersama.</small>
+				</div>
+			</div>
+		
+
+
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/27.jpg" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">My Chemical Romance</div>
+					<small class="text-muted"> Lagu ini menggambarkan perasaan terisolasi dan putus asa seseorang yang sedang menghadapi penyakit atau krisis pribadi.</small>
+				</div>
+			</div>
+			
+
+
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/31.jpg" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Pelangi</div>
+					<small class="text-muted"> Lagu ini menggambarkan perasaan terisolasi dan putus asa seseorang yang sedang menghadapi penyakit atau krisis pribadi.</small>
+				</div>
+			</div>
+			
+
+
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/34.jpg" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">The Robbers</div>
+					<small class="text-muted">Lagu "Robbers" menceritakan tentang hubungan toxic di mana sepasang kekasih terlalu fokus satu sama lain hingga akhirnya hal itu menyebabkan kehancuran.</small>
+				</div>
+			</div>
+			
+
+
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/28.jpeg" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Scout Street</div>
+					<small class="text-muted">lagu "Scott Street" menceritakan tentang individu yang bertemu dan mengobrol dengan orang dari masa lalu, kemungkinan besar mantannya.</small>
+				</div>
+			</div>
+			
+
+
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/47.jpg" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Surat Hati</div>
+					<small class="text-muted">Lagu yang menyentuh hati ini dipenuhi dengan lirik yang memiliki arti perasaan cinta mendalam.</small>
+				</div>
+			</div>
+			<!--Akhir Kartu Lagu-->
+
+			
+
+		</section>
+		<!-- Area Kategori Akhir-->
+
+		<h5 class="song-category-title mx-5 pt-4">Musik" pilihan <small class="float-end"><a href="">View more <i class="bi bi-box-arrow-up-right"></i></a></small></h5>
+
+		<!-- Mulai Area Kategori-->
+		<section class="pt-2 p-4 mx-5 d-flex justify-content-center" style="flex-wrap: wrap;">
+			
+			
+			<!--kartu lagu mulai-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/46.jpg" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">My love</div>
+					<small class="text-muted">Lagu Pilihan untuk kamu yang sedang merasakan Kisah Kasih Romansa kehidupan.</small>
+				</div>
+			</div>
+			<!--Akhir Kartu Lagu-->
+
+			<!--kartu lagu mulai-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/41.jpg" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Ruang Galau</div>
+					<small class="text-muted">Cinta itu memang buta, tapi Cinta tidak tuli. Cinta bisa bedakan mana suara Honda Jazz dengan Honda Supra.</small>
+				</div>
+			</div>
+			
+
+
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/43.jpg" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Indie Songs</div>
+					<small class="text-muted">Kamu bisa salah, orang lain bisa salah. Tapi, merasa paling benar itu bukan jawaban.</small>
+				</div>
+			</div>
+			
+
+
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/51.jpg" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Friend Forever</div>
+					<small class="text-muted">Sahabat bukan tentang siapa yang telah lama kamu kenal, tapi tentang siapa
+						 yang menghampiri hidupmu dan tidak pernah meninggalkanmu dalam situasi dan kondisi seburuk apa pun.</small>
+				</div>
+			</div>
+			
+
+
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/42.jpg" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Motivasi adalah Kunci</div>
+					<small class="text-muted">Tidak ada istilah gagal dalam hidup, yang ada hanya sukses dan belum berhasil. Jangan menyerah!</small>
+				</div>
+			</div>
+		
+
+
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/53.jpg" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Cuma Teman</div>
+					<small class="text-muted">Kalau hendak pergi, pamit. Agar aku tahu caranya menutup pintu. Kalau hendak menetap, beritahu. Agar aku tahu caranya menutup pintu.</small>
+				</div>
+			</div>
+			<!--Akhir Kartu Lagu-->
+
+			<!--kartu lagu mulai-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/52.jpg" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Relax</div>
+					<small class="text-muted">Hidup tak pernah lepas dari masalah karena masalah adalah satu di antara cara Tuhan menjadikanmu pribadi yang lebih kuat dan dewasa.</small>
+				</div>
+			</div>
+			<!--Akhir Kartu Lagu-->
+
+		</section>
+		<!-- Area Kategori Akhir-->
+
+		
+	</main><!--Area utama akhir-->
+
+	<footer class="p-5 pt-4  row bg-dark text-white">
+		
+		<div class="col-md-3 mb-4 col-sm-6">
+			<h5>Home</h5>
+			<ul class="nav flex-column">
+				<li><a href="#">Utama</a></li>
+				<li><a href="#">Signup</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3 mb-4 col-sm-6">
+			<h5>More</h5>
+			<ul class="nav flex-column">
+				<li><a href="#">Featured</a></li>
+				<li><a href="#">New releases</a></li>
+				<li><a href="#">Signup</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+		</div>
+		<div class="col-md-6 mb-4">
+			<h5>Kirimkan Masukkan Anda di Gmail berikut: </h5>
+			<div>adriofaressi@gmail.com</div>
+
+			<div class="input-group mb-3 mt-2">
+			  <input type="text" class="form-control" placeholder="Email" >
+			  <span class="bg-primary text-white input-group-text" id="basic-addon2">Kirim</span>
+			</div>
+
+			<div class="text-white h5 ">
+				Follow us: 
+				<a href="">
+					<i class="bi bi-facebook"></i>
+				</a>
+				<a href="">
+					<i class="bi bi-twitter"></i>
+				</a>
+				<a href="https://www.instagram.com/adrfresi?igsh=OTIzczBzcWd2azRk">
+					<i class="bi bi-instagram"></i>
+				</a>
+			</div>
+
+		</div>
+	</footer>
+</body>
+
+<script src="js/bootstrap.min.js"></script>
+</html>
